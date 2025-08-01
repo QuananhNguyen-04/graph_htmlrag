@@ -1,0 +1,17 @@
+Fetch origin HTML page
+Process HTML page
+    Convert Page to graph RAG format
+For each link/ directories 
+  Fetch link
+  Process link
+    Convert link to graph RAG format
+    Link the link to the graph
+  If link is a directory
+    For each file in directory
+      Fetch file
+      Process file
+        Convert file to graph RAG format
+        Link file to the graph
+    End for
+  End if
+End for
