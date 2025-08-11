@@ -1,6 +1,7 @@
 name: rag
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - defaults/win-64::blas==1.0=mkl
   - ca-certificates==2025.2.25
